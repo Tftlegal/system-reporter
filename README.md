@@ -2,9 +2,24 @@
 
 #Использование пакета system-reporter
 
-Теперь вы можете использовать пакет в других приложениях:
+#Install go-task Ubuntu Debian Linux Mint
+[package]
+
+If you Set up the repository by running:
+
+
+curl -1sLf 'https://dl.cloudsmith.io/public/task/task/setup.deb.sh' | sudo -E bash
+
+Then you can install Task with:
+
+apt install task
+
+#Проверка кода
+
+task install-formatters 
+
+#Теперь вы можете использовать пакет в других приложениях:
 ```
-go
 package main
 
 import (
