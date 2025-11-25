@@ -13,7 +13,7 @@ if [ ! -f "$TASKFILE" ]; then
 fi
 
 # Извлечение всех переменных из секции vars
-echo "Извлекаем переменные из Taskfile.yml:"
+echo "Извлекаем переменные из Taskfile.yaml:"
 
 # Определяем начало и конец секции vars
 VARS_START=$(grep -n "^vars:" "$TASKFILE" | cut -d: -f1)
